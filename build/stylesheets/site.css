@@ -4,7 +4,7 @@ body {
   "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
   "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
   sans-serif;*/
-  font-family: "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400; }
 
@@ -15,6 +15,8 @@ main {
   font-size: 1.2rem; }
   main .row {
     margin-bottom: 3rem; }
+  main h1, main h2, main h3, main h4, main h5, main h6 {
+    color: #4b31af; }
 
 .sponsor--title {
   font-size: 1.5rem;
@@ -29,17 +31,17 @@ a {
   a:visited {
     color: #52c2fa; }
 
-a.btn-primary {
+.btn-primary {
   color: #1a2033;
   background-color: #52c2fa;
   border-color: #52c2fa; }
-  a.btn-primary:hover {
+  .btn-primary:hover {
     background-color: #83d3fb;
     border-color: #83d3fb; }
-  a.btn-primary:active {
+  .btn-primary:active {
     background-color: #83d3fb;
     border-color: #83d3fb; }
-  a.btn-primary:visited {
+  .btn-primary:visited {
     background-color: #52c2fa;
     border-color: #52c2fa; }
 
@@ -58,7 +60,7 @@ a.btn-primary {
       -ms-flex: 2;
           flex: 2; }
   .event-info h1, .event-info h2, .event-info h3, .event-info h4, .event-info h5, .event-info h6 {
-    font-family: "Anton", "Arimo", "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Anton", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .event-info .date {
     font-size: 6rem; }
   .event-info .venue {
@@ -153,6 +155,8 @@ img {
   margin-top: 5rem;
   color: white;
   text-align: center; }
+  .site-footer h1, .site-footer h2, .site-footer h3 {
+    font-weight: 400; }
   .site-footer .organizers {
     margin-top: 3rem; }
   .site-footer .organizers--title {

@@ -17,7 +17,7 @@ body {
 	"Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
 	sans-serif;*/
   //font-family: "Anton", "Arimo", "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -31,6 +31,10 @@ main {
 
 	.row {
 		margin-bottom: 3rem; //$section-spacing;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		color: $purple;
 	}
 }
 
@@ -55,7 +59,7 @@ a {
 	}
 }
 
-a.btn-primary {
+.btn-primary {
 	color: $dark-gray;
 	background-color: $light-blue;
 	border-color: $light-blue;
@@ -92,7 +96,7 @@ a.btn-primary {
 	flex: 2;
 
 	h1,h2,h3,h4,h5,h6 {
-		font-family: "Anton", "Arimo", "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Anton", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 
 	.date {
@@ -207,6 +211,10 @@ img {
 	margin-top: $section-spacing;
 	color: white;
 	text-align: center;
+
+	h1,h2,h3 {
+		font-weight: 400;
+	}
 
 	.organizers {
 		margin-top: 3rem;
