@@ -31,17 +31,21 @@ a {
   a:visited {
     color: #52c2fa; }
 
-a.btn-primary {
+.btn-primary,
+.subscribe {
   color: #1a2033;
   background-color: #52c2fa;
   border-color: #52c2fa; }
-  a.btn-primary:hover {
+  .btn-primary:hover,
+  .subscribe:hover {
     background-color: #83d3fb;
     border-color: #83d3fb; }
-  a.btn-primary:active {
+  .btn-primary:active,
+  .subscribe:active {
     background-color: #83d3fb;
     border-color: #83d3fb; }
-  a.btn-primary:visited {
+  .btn-primary:visited,
+  .subscribe:visited {
     background-color: #52c2fa;
     border-color: #52c2fa; }
 

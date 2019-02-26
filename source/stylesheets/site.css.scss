@@ -60,7 +60,9 @@ a {
 	}
 }
 
-a.btn-primary {
+.btn-primary,
+.subscribe
+{
 	color: $dark-gray;
 	background-color: $light-blue;
 	border-color: $light-blue;
