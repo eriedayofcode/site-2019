@@ -22,6 +22,10 @@ body {
 	font-weight: 400;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+}
+
 main {
 	font-size: 1.2rem;
 
@@ -172,6 +176,9 @@ img {
 	padding: $section-spacing 0;
 	margin: 0 auto $section-spacing auto;
 	color: white;
+	h1,h2,h3,h4,h5,h6 {
+		font-weight: 400;
+	}
 
 	a {
 		color: $light-blue;
