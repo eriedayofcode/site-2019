@@ -26,6 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 600;
 }
 
+
 main {
 	font-size: 1.2rem;
 
@@ -59,7 +60,7 @@ a {
 	}
 }
 
-.btn-primary {
+a.btn-primary {
 	color: $dark-gray;
 	background-color: $light-blue;
 	border-color: $light-blue;
