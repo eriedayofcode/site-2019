@@ -1,0 +1,100 @@
+# - time: 8:00am - 8:50am
+#   type: other
+#   title: Registration
+#
+# - time: 8:50am - 9:00am
+#   type: other
+#   title: Opening Statements from Mayor Schember
+#
+# - time: 9:00am - 9:30am
+#   type: talk
+#   title: A Token Walks Into a SPA...
+#   description: |-
+#     A look at where computing and analytics began and where it is headed. The basis of all DevOps and development starts with our measurements.  We need to understand what role analytics and metrics plays in modern computing.  To find out, we look at where analytics began in the advent of computer science and where we stand today, with an eye toward the future.
+#   speaker:
+#     name: "Ado Kukic"
+#     image: /images/speakers/ado-kukic.jpg
+#
+# - time: 9:45am - 10:15am
+#   type: talk
+#   title: "From concept to cash: Building and optimizing your product value stream"
+#   description: |-
+#     Product development starts well before the first line of code is ever written. However, we often focus only on the software development components with little understanding of what should happen before and after. In this hands-on session, let's explore the entire value stream and find ways to shorten the feedback loop throughout.
+#   speaker:
+#     name: "Nivia Henry"
+#     image: /images/speakers/nivia-henry.jpg
+#
+# - time: 10:30am - 11:00am
+#   type: talk
+#   title: "Confessions of a Reformed Architecture Astronaut: In Defense of MVC"
+#   description: |-
+#     Every programmer wants to write Good Code, but what does that actually mean? Almost anyone who has been in the industry for more than a few years will have seen horrible abuse of model-view-controller, so it is perhaps no wonder that we are quick to reach for design patterns as a panacea. We want to future-proof in case we need to switch ORMs or move away from our chosen framework altogether, and so we isolate and we interface; we reach for domain-driven design and hexagonal architecture and the Gang of Four. We are making many of our applications far more complex than they really need to be to solve problems that may never exist. In this talk, we'll explore the difference between proactive and reactive coding, re-evaluating along the way some practices that many programmers have declared 'cardinal sins.'
+#   speaker:
+#     name: Samantha Geitz
+#     image: /images/speakers/samantha-geitz.jpg
+#
+# - time: 11:15am - 11:45pm
+#   type: talk
+#   title: Tell Me About Some Projects You Work On In Your Spare Time
+#   description: |-
+#     If you’ve been a part of an interview for a technical position in the last ten years, you are probably aware that the process is horribly broken. Come watch me yell about it for the first third of this talk and present a possible solution in the second two thirds.
+#   speaker:
+#     name: James Wrubel
+#     image: /images/speakers/jim-wrubel.jpg
+#
+# - time: 11:45pm - 1:15pm
+#   type: other
+#   title: Lunch
+#
+# - time: 1:30pm - 2:00pm
+#   type: other
+#   title: Lightning Talks
+#   description: Do you have something you want to teach or an awesome project to show off?  Come early and be one of 5 people to sign up to give a lightning talk!
+#
+# - time: 2:15pm - 2:45pm
+#   type: talk
+#   title: "Scrumbanzen (or how we evolved our agile practices to deliver early and often)"
+#   description: |-
+#     In this session, we’ll cover the values of the Agile Manifesto and exactly how we drew inspiration from them at Think Through Math (TTM) as the foundation for our agile practices. We’ll then cover the basics of several frameworks (XP, Scrum, Kanban, Kaizen) that formed the foundation of our ‘flavor’ of agile product development. We’ll identify the components of each framework that we adopted at TTM to improve our product development, and why, while always testing and learning. We’ll also cover what agile practices we didn’t employ at TTM, and why. Most importantly, we’ll walk through TTM’s product development process, step-by-step, showing exactly how it worked and showing example artifacts that we used on regular basis (daily/weekly/monthly) to manage development. Rounding out the talk will be a Q & A session where conference attendees can inquire about the practices we used at TTM and seek advice about their own agile implementations. Conference attendees will leave the talk with actionable insights and knowledge of a successful custom framework that they can apply to their own organizations.
+#   speaker:
+#     name: Tim Bickerton
+#     image: /images/speakers/tim-bickerton.jpg
+#
+# - time: 3:00pm - 3:30pm
+#   type: talk
+#   title: "Lost at Sea: Navigating the Waters of Remote/Distributed Teams"
+#   description: |-
+#     Even if you're not a remote worker, chances are someone on your team is. Often neglected, working remotely takes extra effort and intentional practice. This talk illuminates potential challenges and tactics for working with others to improve your work-life (especially when it's at your home).
+#   speaker:
+#     name: Andrew Chernauskas
+#     image: /images/speakers/andrew-chernauskas.jpg
+#
+# - time: 3:45pm - 4:15pm
+#   type: talk
+#   title: "Octopus Deploy: Automating .NET Deployments"
+#   description: |-
+#     Octopus Deploy is a tool for .NET deployment automation. You can use it to deploy IIS websites, Windows services, and even certificates and scripts that you need to run on remote machines. Octopus Deploy has the potential to make deploying from the build server to remote machines painless and repeatable- but there are some things you may want to know up front to make that happen. This session will explore why you might want to try Octopus Deploy, what sort of issues you may run into, and how Ocuvera uses Octopus to manage our on-premise product installations & updates.
+#   speaker:
+#     name: Cassey Lottman
+#     image: /images/speakers/cassey-lottman.jpg
+#
+# - time: 4:30pm - 5:00pm
+#   type: talk
+#   title: "Head in the Cloud: How to Write an Alexa Skill"
+#   description: |-
+#     Voice control can fundamentally improve the way we interact with technology, and it's becoming increasingly ubiquitous. Cloud-powered services like Alexa can connect us to family, help around the house, and create new experiences to make our lives easier. In this talk, I will give a basic overview of how to design and implement an Alexa skill using AWS technologies to add custom functionality to Alexa-enabled devices.
+#   speaker:
+#     name: Chris Nies
+#     image: /images/speakers/christopher-nies.jpg
+#
+# - time: 5:00pm
+#   type: other
+#   title: Closing Remarks
+#
+# - time: 5:30pm - 9:00pm
+#   type: other
+#   title: After Party at the Brewerie!
+#   description: |-
+#     Come join us at the home of our first Erie Day of Code, The Brewerie, in an after party filled with great conversations, new friends, and even some hacking!  We will be occupying the upstairs and outdoors by the tracks if you'd like some fresh air.  If you and another developer from the day happen to have a great idea you'd like to work on, we'll have tables available for you to develop at, or simply play games at if talking loudly in a social setting is not your thing.
+#
+#     The downtown trolley will be available all day for free to run up and down State St. (Erie Art Museum is on 4th, Brewerie is on 14th) if you'd like a lift to or from the after party, but you can also park your car outside or very close to the Brewerie, or you can take a nice stroll through downtown.  Organizers and volunteers will be available to walk you to your vehicle.

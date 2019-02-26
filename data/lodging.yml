@@ -1,0 +1,47 @@
+- name: Sheraton Erie Bayfront Hotel
+  address: 55 W Bay Rd.
+  city_state: Erie, PA
+  zipcode: 16507
+  reason: The hotel of choice for the conference.  It sits on the beautiful Erie Bayfront at the end of Dobbins Landing, and gives you an awesome view of the bay or of the Erie skyline.  It is also connected to an outdoor tiki bar!
+  phone: (814) 454-2005
+  url: http://sheratoneriebayfront.com
+  distance: 0.5 miles (10 minute walk)
+  directions: "https://www.google.com/maps/dir/Sheraton+Erie+Bayfront+Hotel,+West+Bay+Road,+Erie,+PA/Erie+Art+Museum,+411+State+St,+Erie,+PA+16501/@42.1340279,-80.0931129,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x882d7ff3e0f6d39f:0x650bd30d815ede2a!2m2!1d-80.0922541!2d42.1367266!1m5!1m1!1s0x882d7fe545495e93:0x24059a439df897ed!2m2!1d-80.085217!2d42.130872"
+  type: hotel
+  proximity: close
+
+- name: Courtyard (Marriott) Erie Ambassador Conference Center / Hotel
+  address: 7792 Peach St.
+  city_state: Erie, PA
+  zipcode: 16509
+  phone: (814) 860-8300
+  url: http://www.marriott.com/hotels/travel/ericy-courtyard-erie-ambassador-conference-center/
+  distance: 11 miles (14 minute drive)
+  reason: Affordable suites, across the street from <a href="http://splashlagoon.com">Splash Lagoon</a>, down the road from the <a href="http://www.millcreekmall.net/">Millcreek Mall</a> and other shopping centers, and directly off of I-90.  Venue is a straight shot down Peach St., then right onto 5th.
+  directions: "https://www.google.com/maps/dir/Courtyard+Erie+Ambassador+Conference+Center,+Peach+Street,+Erie,+PA/Erie+Art+Museum,+411+State+St,+Erie,+PA+16501/@42.084198,-80.1510051,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x883280b109f1c557:0x3963a6e21969e1e!2m2!1d-80.0843735!2d42.0502504!1m5!1m1!1s0x882d7fe545495e93:0x24059a439df897ed!2m2!1d-80.085217!2d42.130872"
+  type: hotel
+  proximity: far
+
+- name: Cobblestone Hotel & Suites
+  address: 701 Bayfront Parkway
+  city_state: Erie, PA
+  zipcode: 16507
+  phone: (814) 455-1010
+  url: http://www.staycobblestone.com/pa/erie/
+  distance: 1.2 miles (25 minute walk)
+  reason: Brand new hotel, at a lower price-point than the Sheraton. Located along the Bayfront Highway with a wonderful view of the bay. A slightly longer walk to the venue, but parking at the hotel is free for guests.
+  directions: "https://www.google.com/maps/dir/Cobblestone+Hotel+and+Suites+Erie,+PA,+West+Bayfront+Parkway,+Erie,+PA/Erie+Art+Museum,+411+State+St,+Erie,+PA+16501/@42.1313449,-80.1042084,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x882d80069dbad5c1:0x67e7f27acc518481!2m2!1d-80.1056473!2d42.1283059!1m5!1m1!1s0x882d7fe545495e93:0x24059a439df897ed!2m2!1d-80.085217!2d42.130872!3e2"
+  type: hotel
+  proximity: close
+
+- name: Courtyard Erie Bayfront
+  address: 2 Sassafras Pier
+  city_state: Erie, PA
+  zipcode: 16507
+  phone: (814) 363-1005
+  url: http://www.marriott.com/hotels/travel/eridt-courtyard-erie-bayfront/
+  distance: 0.7 miles (15 minute walk)
+  reason: Brand new hotel with gorgeous views of the bay. Amenities include an on-site restaurant, as well as an indoor pool and whirlpool, and an outdoor infinity pool.
+  directions: "https://www.google.com/maps/dir/Courtyard+by+Marriott+Erie+Bayfront+Hotel,+2+Sassafras+Pier,+Erie,+PA+16507/Erie+Art+Museum,+State+Street,+Erie,+PA/@42.1336272,-80.0944547,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x882d7ff6b83715d7:0xdc28756a8d5f4f88!2m2!1d-80.0949161!2d42.1363666!1m5!1m1!1s0x882d7fe545495e93:0x24059a439df897ed!2m2!1d-80.085217!2d42.130872"
+  type: hotel
+  proximity: close

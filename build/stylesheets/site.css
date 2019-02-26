@@ -1,0 +1,170 @@
+body {
+  /*font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+  "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+  "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+  "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
+  sans-serif;*/
+  font-family: "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+main {
+  font-size: 1.2rem; }
+  main .row {
+    margin-bottom: 3rem; }
+
+.sponsor--title {
+  font-size: 1.5rem;
+  text-align: center; }
+
+a {
+  color: #52c2fa; }
+  a:hover {
+    color: #83d3fb; }
+  a:active {
+    color: #83d3fb; }
+  a:visited {
+    color: #52c2fa; }
+
+a.btn-primary {
+  color: #1a2033;
+  background-color: #52c2fa;
+  border-color: #52c2fa; }
+  a.btn-primary:hover {
+    background-color: #83d3fb;
+    border-color: #83d3fb; }
+  a.btn-primary:active {
+    background-color: #83d3fb;
+    border-color: #83d3fb; }
+  a.btn-primary:visited {
+    background-color: #52c2fa;
+    border-color: #52c2fa; }
+
+.primary {
+  color: #52c2fa; }
+
+.bg-split {
+  width: 0;
+  height: 0;
+  border-top: 50% solid gray;
+  border-right: 50% solid transparent; }
+
+.event-info {
+  text-align: right;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2; }
+  .event-info h1, .event-info h2, .event-info h3, .event-info h4, .event-info h5, .event-info h6 {
+    font-family: "Anton", "Arimo", "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .event-info .date {
+    font-size: 6rem; }
+  .event-info .venue {
+    font-size: 3rem; }
+  .event-info .purchase-ticket {
+    border-width: 3px; }
+  .event-info .archive {
+    border: 3px solid #52c2fa; }
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 960px;
+  margin: 0 auto; }
+
+img {
+  width: 100%; }
+
+.logo-link {
+  display: block;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2; }
+
+.header-divider {
+  position: relative;
+  width: 100px;
+  overflow: hidden;
+  background-color: #4b31af;
+  -ms-flex-item-align: stretch;
+      align-self: stretch; }
+  .header-divider:before {
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 200%;
+    background-color: white;
+    top: -6px;
+    -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+    right: 0; }
+
+.header-line {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-26deg);
+  position: absolute;
+  top: -33px;
+  left: -13px;
+  background-color: blue;
+  border-bottom: 1px solid blue;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.container {
+  max-width: 960px; }
+
+.site-header {
+  position: relative;
+  background-color: #4b31af;
+  padding: 5rem 0;
+  margin: 0 auto 5rem auto;
+  color: white; }
+  .site-header a {
+    color: #52c2fa; }
+    .site-header a:hover {
+      color: #eef0f6; }
+    .site-header a:active {
+      color: #eef0f6; }
+    .site-header a:visited {
+      color: #52c2fa; }
+  .site-header a.btn-primary {
+    color: #1a2033; }
+
+.site-footer {
+  background-color: #4b31af;
+  padding: 5rem 0;
+  margin-top: 5rem;
+  color: white;
+  text-align: center; }
+  .site-footer .organizers {
+    margin-top: 3rem; }
+  .site-footer .organizers--title {
+    font-size: 1rem; }
+  .site-footer .organizers--nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 3rem auto 0 auto; }
+    .site-footer .organizers--nav .organizer--image {
+      border-radius: 50%;
+      width: 75px; }
+      .site-footer .organizers--nav .organizer--image .organizer a {
+        display: inline-block;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1; }

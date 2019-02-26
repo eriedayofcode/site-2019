@@ -1,0 +1,11 @@
+partners:
+  - name: Radius CoWork
+    url: http://radiusco.work
+    logo: 'radius-logo.png'
+  - name: WolfyMaster Media
+    url: http://wolfymaster.com
+    logo: 'wolfymaster.png'
+silver:
+  - name: Wërkbot
+    url: http://werkbot.com
+    logo: 'werkbot.svg'

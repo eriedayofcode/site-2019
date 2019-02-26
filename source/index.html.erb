@@ -1,0 +1,257 @@
+---
+title: Erie Day of Code 2019
+---
+
+<div class="landing-screen">
+	<div class="intro-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						The Erie Day of Code is back for year five!
+						We're bringing in summer with Erie's biggest tech event of the year.
+						Nearly 200 developers gather annually to discuss software development,
+						devops, product management, programming languages, and more.
+					</p>
+
+					<p>
+						This is our fifth year, so we're determined to make this our best.
+						Join us on June 28, 2019 for an incredible lineup of speakers,
+						many laughs and discussions, and great times with the community.
+					</p>
+
+					<p>
+						Speaker announcements and more information coming soon!
+						Trust us to put on another excellent event, and save money by
+						buying our Blind Bird tickets above - there is a limited quantity
+						available.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<section id="mailing-list-signup">
+						<h1>Stay up to Date</h1>
+						<p>Subscribe to our mailing list for updates and ticket sales</p>
+						<form action="<%= mailing_list_url %>"
+							id="mailing-list-subscribe-form"
+							class="form"
+							method="post"
+							name="mc-embedded-subscribe-form"
+							target="_blank">
+							<div class="form-group row">
+								<label class="sr-only" for="email">Email Address</label>
+								<div class="col-lg-8">
+									<input type="email"
+									class="form-control form-control-lg"
+									id="email"
+									name="EMAIL"
+									placeholder="Enter Email Address">
+								</div>
+
+								<div class="col-lg-4">
+									<input class="btn btn-primary btn-block btn-lg"
+									name="subscribe"
+									type="submit"
+									value="Subscribe" />
+							</div>
+
+							<div style="position: absolute; left: -5000px;">
+								<input name="b_3fcd98d64025f034a082fe384_bb907d9e18"
+								tabindex="-1"
+								type="text" />
+						</form>
+					</section>
+				</div>
+
+				<div class="col-md-6">
+					<h1>Sponsorship</h1>
+
+					<p class="prospectus-text site-notice">
+						Interested in sponsoring?  Check out our
+						<%= link_to 'Prospectus', "/edoc2019-prospectus.pdf", class: 'prospectus-link', target: '_blank' %>
+						for information on how you can support this event!
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<% unless data.agenda.empty? %>
+			<section id="agenda" class="agenda">
+				<div class="container">
+					<h1>Agenda</h1>
+
+					<% data.agenda.each do |row| %>
+						<article class="agenda-row <%= row.type %>">
+							<div class="row">
+								<div class="col-lg-1 hidden-md-down"></div>
+								<div class="col-lg-3 col-md-4 time-col">
+									<%= row.time %>
+
+									<% if row.type == 'talk' %>
+										<div class="speaker">
+											<%= image_tag row.speaker.image, class: 'speaker-photo hidden-md-down'%>
+											<h3 class="speaker-name"><%= row.speaker.name %></h3>
+										</div>
+									<% end %>
+								</div>
+
+								<div class="col-md-7 info-col">
+									<h3 class="title"><%= row.title %></h3>
+									<% if row.type == 'talk' %>
+										<div class="description">
+											<%= row.description %>
+										</div>
+									<% end %>
+								</div>
+							</div>
+						</article>
+					<% end %>
+				</div>
+			</section>
+		<% end %>
+
+
+		<% unless data.speakers.empty? %>
+			<section id="speakers" class="speakers">
+				<div class="container">
+					<h1>Speakers</h1>
+
+					<% data.speakers.each_slice(2) do |pair| %>
+						<div class="row">
+							<% pair.each_with_index do |speaker, i| %>
+								<div class="col-md-5 <%= "offset-md-2" if i != 0 %>">
+									<article class="speaker">
+										<div class="speaker--photo-container">
+											<a class="speaker--photo-link" href="<%= twitter_profile(speaker.twitter) %>" target="_blank">
+												<%= image_tag speaker.image, class: 'speaker--photo', alt: speaker.name %>
+											</a>
+											<h3 class="speaker--name">
+												<%= link_to speaker.name, twitter_profile(speaker.twitter), target: '_blank' %>
+											</h3>
+										</div>
+										<h4 class="speaker--talk-title">
+											<%= speaker.talk_title %>
+										</h4>
+										<div class="speaker--blurb">
+											<%= md_text(speaker.about) %>
+										</div>
+									</article>
+								</div>
+							<% end %>
+						</div>
+					<% end %>
+				</div>
+			</section>
+		<% end %>
+
+		<section id="sponsors" class="sponsors">
+			<div class="container">
+				<h1>Sponsors</h1>
+				<section id="sponsor-partners" class="sponsor-level">
+					<h1 class="sponsor--title">Partners</h1>
+					<div class="row">
+						<% data.sponsors.partners.each do |s| %>
+							<div class="col-lg-5 offset-lg-1">
+								<article class="sponsor">
+									<% link_to s.url, target: '_blank' do %>
+										<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+									<% end %>
+								</article>
+							</div>
+						<% end %>
+					</div>
+				</section>
+
+				<% if data.sponsors.platinum %>
+					<section id="sponsor-plantinum" class="sponsor-level">
+						<h1 class="sponsor--title">Platinum</h1>
+						<div class="row">
+							<% data.sponsors.platinum.each do |s| %>
+								<div class="col-lg-8 offset-lg-2">
+									<article class="sponsor">
+										<% link_to s.url, target: '_blank' do %>
+											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+										<% end %>
+									</article>
+								</div>
+							<% end %>
+						</div>
+					</section>
+				<% end %>
+
+				<% if data.sponsors.gold %>
+					<section id="sponsor-gold" class="sponsor-level">
+						<h1 class="sponsor--title">Gold</h1>
+						<div class="row">
+							<% data.sponsors.gold.each do |s| %>
+								<div class="col-lg-8 offset-lg-2">
+									<article class="sponsor">
+										<% link_to s.url, target: '_blank' do %>
+											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+										<% end %>
+									</article>
+								</div>
+							<% end %>
+						</div>
+					</section>
+				<% end %>
+
+				<% if data.sponsors.silver %>
+					<section id="sponsor-silver" class="sponsor-level">
+						<h1 class="sponsor--title">Silver</h1>
+						<div class="row">
+							<% data.sponsors.silver.each do |s| %>
+								<div class="col-lg-8 offset-lg-2">
+									<article class="sponsor">
+										<% link_to s.url, target: '_blank' do %>
+											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+										<% end %>
+									</article>
+								</div>
+							<% end %>
+						</div>
+					</section>
+				<% end %>
+
+				<% if data.sponsors.bronze %>
+					<section id="sponsor-bronze" class="sponsor-level">
+						<h1 class="sponsor--title">Bronze</h1>
+						<div class="row">
+							<% data.sponsors.bronze.each do |s| %>
+								<div class="col-lg-4 offset-lg-4">
+									<article class="sponsor">
+										<% link_to s.url, target: '_blank' do %>
+											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+										<% end %>
+									</article>
+								</div>
+							<% end %>
+						</div>
+					</section>
+				<% end %>
+
+				<% if data.sponsors.support %>
+					<section id="sponsor-community" class="sponsor-level">
+						<h1 class="sponsor--title">Help from the Community</h1>
+
+						<div class="row">
+							<div class="col-lg-3 offset-lg-4">
+								<ul>
+									<% data.sponsors.support.each do |name| %>
+										<li><%= name %></li>
+									<% end %>
+								</ul>
+							</div>
+						</div>
+					</section>
+				<% end %>
+			</div>
+		</section>
+	</div>
+</div>
+

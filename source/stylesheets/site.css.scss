@@ -1,0 +1,227 @@
+$purple: hsl(252, 56, 44); //#4931ad;//
+$light-blue: hsl(200, 94, 65);
+$active-blue: hsl(200, 94, 75);
+$green: hsl(128, 47, 59);
+$section-spacing: 5rem;
+$light-gray: hsl(225, 33, 95);
+$dark-gray: hsl(225, 33, 15);
+$normal-weight: 400;
+$semi-bold-weight: 600;
+$bold-weight: 700;
+$dark-blue: #005B94;
+
+body {
+	/*font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+	"Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+	"Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+	"Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
+	sans-serif;*/
+  //font-family: "Anton", "Arimo", "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+main {
+	font-size: 1.2rem;
+
+	.row {
+		margin-bottom: 3rem; //$section-spacing;
+	}
+}
+
+.sponsor--title {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+a {
+	color: $light-blue;
+
+	&:hover {
+		color: $active-blue;
+	}
+
+	&:active {
+		color: $active-blue;
+	}
+
+	&:visited {
+		color: $light-blue;
+	}
+}
+
+a.btn-primary {
+	color: $dark-gray;
+	background-color: $light-blue;
+	border-color: $light-blue;
+
+	&:hover {
+		background-color: $active-blue;
+		border-color: $active-blue;
+	}
+
+	&:active {
+		background-color: $active-blue;
+		border-color: $active-blue;
+	}
+
+	&:visited {
+		background-color: $light-blue;
+		border-color: $light-blue;
+	}
+}
+
+.primary {
+	color: $light-blue;
+}
+
+.bg-split {
+	width: 0;
+	height: 0;
+	border-top: 50% solid gray;
+	border-right: 50% solid transparent;
+}
+
+.event-info {
+	text-align: right;
+	flex: 2;
+
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "Anton", "Arimo", "Roboto Slab", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	.date {
+		font-size: 6rem;
+	}
+
+	.venue {
+		font-size: 3rem;
+	}
+
+	.purchase-ticket {
+		border-width: 3px;
+	}
+
+	.archive {
+		border: 3px solid $light-blue;
+	}
+}
+
+.logo {
+}
+
+.hero {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+.logo-link {
+	display: block;
+	flex: 2;
+	//background-color: white;
+}
+
+.header-divider {
+  position: relative;
+  width: 100px;
+  overflow: hidden;
+  background-color: $purple;
+	align-self: stretch;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 105px;
+		height: 200%;
+		background-color: white;
+		top: -6px;
+		-webkit-transform: rotate(-14deg);
+		transform: rotate(-14deg);
+		right: 0;
+	}
+}
+
+.header-line {
+	width: 100%;
+	height: 100%;
+	-webkit-transform:
+		rotate(-26deg);
+	position: absolute;
+	top: -33px;
+	left: -13px;
+	background-color: blue;
+	border-bottom: 1px solid blue;
+	flex: 1;
+}
+.container {
+	max-width: 960px;
+}
+
+.site-header {
+	position: relative;
+	background-color: $purple;
+	padding: $section-spacing 0;
+	margin: 0 auto $section-spacing auto;
+	color: white;
+
+	a {
+		color: $light-blue;
+
+		&:hover {
+			color: $light-gray;
+		}
+
+		&:active {
+			color: $light-gray;
+		}
+
+		&:visited {
+			color: $light-blue;
+		}
+	}
+
+	a.btn-primary {
+		color: $dark-gray;
+	}
+}
+
+.site-footer {
+	background-color: $purple;
+	padding: $section-spacing 0;
+	margin-top: $section-spacing;
+	color: white;
+	text-align: center;
+
+	.organizers {
+		margin-top: 3rem;
+	}
+
+	.organizers--title {
+		font-size: 1rem;
+	}
+
+	.organizers--nav {
+		display: flex;
+		justify-content: space-between;
+		margin: 3rem auto 0 auto;
+
+		.organizer--image {
+			border-radius: 50%;
+			width: 75px;
+
+			.organizer a {
+				display: inline-block;
+				flex: 1;
+			}
+		}
+	}
+}
