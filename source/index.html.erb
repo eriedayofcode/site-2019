@@ -125,27 +125,30 @@ title: Erie Day of Code 2019
 					<% data.speakers.each_slice(2) do |pair| %>
 						<div class="row">
 							<% pair.each_with_index do |speaker, i| %>
-								<div class="col-md-5 <%= "offset-md-2" if i != 0 %>">
-									<article class="speaker">
-										<div class="speaker--photo-container">
-											<a class="speaker--photo-link" href="<%= twitter_profile(speaker.twitter) %>" target="_blank">
-												<%= image_tag speaker.image, class: 'speaker--photo', alt: speaker.name %>
-											</a>
-											<h3 class="speaker--name">
-												<%= link_to speaker.name, twitter_profile(speaker.twitter), target: '_blank' %>
-											</h3>
-										</div>
-										<h4 class="speaker--talk-title">
-											<%= speaker.talk_title %>
-										</h4>
-										<div class="speaker--blurb">
-											<%= md_text(speaker.about) %>
-										</div>
-									</article>
-								</div>
+                <div class="col-md-5 <%= "offset-md-2" if i != 0 %>">
+                  <div class="card" style="">
+                    <a class="speaker--photo-link" href="<%= twitter_profile(speaker.twitter) %>" target="_blank">
+                      <%= image_tag speaker.image, class: 'card-img-top speaker--photo', alt: speaker.name %>
+                    </a>
+                    <div class="card-body speaker--photo-container">
+                      <h3 class="card-title">
+                        <%= link_to speaker.name, twitter_profile(speaker.twitter), target: '_blank' %>
+                      </h3>
+                      <h4 class="speaker--talk-title">
+                        <%= speaker.talk_title %>
+                      </h4>
+                      <p class="card-text"><%= md_text(speaker.about) %></p>
+                    </div>
+                  </div>
+                </div>
 							<% end %>
 						</div>
 					<% end %>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>More speakers to be announced soon!</h1>
+            </div>
+          </div>
 				</div>
 			</section>
 		<% end %>

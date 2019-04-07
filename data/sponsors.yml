@@ -5,7 +5,17 @@ partners:
   - name: WolfyMaster Media
     url: http://wolfymaster.com
     logo: 'wolfymaster.png'
+gold:
+  - name: Velocity Network
+    url: http://velocitynetwork.net
+    logo: 'vnet.png'
 silver:
+  - name: Wërkbot
+    url: http://werkbot.com
+    logo: 'werkbot.svg'
+  - name: Erie Innovation District
+    url: http://erieinnovationdistrict.com
+    logo: 'eid.png'
   - name: Wërkbot
     url: http://werkbot.com
     logo: 'werkbot.svg'

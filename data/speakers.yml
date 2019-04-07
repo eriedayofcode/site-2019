@@ -1,9 +1,17 @@
-#- name: Samantha Geitz
-#  image: /images/speakers/samantha-geitz.jpg
-#  twitter: "samanthageitz"
-#  talk_title: "Confessions of a Reformed Architecture Astronaut: In Defense of MVC"
-#  about: |-
-#    Senior Developer and captain of #TeamReact at [Tighten](http://tighten.co). Proud Chicago native and Wrigley Field bleacher bum. Owned by 2 dogs and a cat.
-#  abstract: |-
-#    Every programmer wants to write Good Code, but what does that actually mean? Almost anyone who has been in the industry for more than a few years will have seen horrible abuse of model-view-controller, so it is perhaps no wonder that we are quick to reach for design patterns as a panacea. We want to future-proof in case we need to switch ORMs or move away from our chosen framework altogether, and so we isolate and we interface; we reach for domain-driven design and hexagonal architecture and the Gang of Four. We are making many of our applications far more complex than they really need to be to solve problems that may never exist. In this talk, we'll explore the difference between proactive and reactive coding, re-evaluating along the way some practices that many programmers have declared 'cardinal sins.'
+- name: Kim Maida
+  image: /images/speakers/kim-maida.jpg
+  twitter: "KimMaida"
+  talk_title: "Reactive Programming in JS with RxJS"
+  about: |-
+    Google Developer Expert and Manager of Community & Technical Content at [Auth0](https://auth0.com). Passionate about identity, authentication, constant learning, mentoring engineers, and the JavaScript community.
+  abstract: |-
+    Coming soon
+- name: Caleb Porzio
+  image: /images/speakers/caleb-porzio.jpg
+  twitter: "calebporzio"
+  talk_title: "How to Write Less JavaScript"
+  about: |-
+    Caleb is a web developer, speaker, and podcaster who’s super duper passionate about resisting complexity and delivering more value.
+  abstract: |-
+    Developers are increasingly adopting tools like React, Vue, and Angular to develop their front-ends. These tools are powerful alternatives to the dark days of jQuery, however, they are orders of magnitude more complex. Companies like GitHub and Basecamp are speaking out against this complexity. They are utilizing tools and techniques that leverage server-side technologies while delivering smooth UIs that feel like SPAs. In this talk, we’ll explore some compelling strategies to deliver more value and write less JavaScript!
 
