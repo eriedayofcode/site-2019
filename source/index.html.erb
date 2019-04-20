@@ -155,7 +155,7 @@ title: Erie Day of Code 2019
 					<h1 class="sponsor--title">Partners</h1>
 					<div class="row">
 						<% data.sponsors.partners.each do |s| %>
-							<div class="col-lg-5 offset-lg-1">
+							<div class="sponsor-container col-lg-5 offset-lg-1">
 								<article class="sponsor">
 									<% link_to s.url, target: '_blank' do %>
 										<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
@@ -171,7 +171,7 @@ title: Erie Day of Code 2019
 						<h1 class="sponsor--title">Platinum</h1>
 						<div class="row">
 							<% data.sponsors.platinum.each do |s| %>
-								<div class="col-lg-8 offset-lg-2">
+								<div class="sponsor-container col-lg-8 offset-lg-2">
 									<article class="sponsor">
 										<% link_to s.url, target: '_blank' do %>
 											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
@@ -188,7 +188,7 @@ title: Erie Day of Code 2019
 						<h1 class="sponsor--title">Gold</h1>
 						<div class="row">
 							<% data.sponsors.gold.each do |s| %>
-								<div class="col-lg-8 offset-lg-2">
+								<div class="sponsor-container col-lg-8 offset-lg-2">
 									<article class="sponsor">
 										<% link_to s.url, target: '_blank' do %>
 											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
@@ -205,7 +205,7 @@ title: Erie Day of Code 2019
 						<h1 class="sponsor--title">Silver</h1>
 						<div class="row">
 							<% data.sponsors.silver.each do |s| %>
-								<div class="col-lg-8 offset-lg-2">
+								<div class="sponsor-container col-lg-8 offset-lg-2">
 									<article class="sponsor">
 										<% link_to s.url, target: '_blank' do %>
 											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
@@ -222,7 +222,7 @@ title: Erie Day of Code 2019
 						<h1 class="sponsor--title">Bronze</h1>
 						<div class="row">
 							<% data.sponsors.bronze.each do |s| %>
-								<div class="col-lg-4 offset-lg-4">
+								<div class="sponsor-container col-lg-4 offset-lg-4">
 									<article class="sponsor">
 										<% link_to s.url, target: '_blank' do %>
 											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>

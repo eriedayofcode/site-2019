@@ -9,6 +9,10 @@ platinum:
   - name: Velocity Network
     url: http://velocitynetwork.net
     logo: 'vnet.png'
+gold:
+  - name: Erie Insurance
+    url: http://erieinsurance.com
+    logo: 'erie-insurance.jpg'
 silver:
   - name: Wërkbot
     url: http://werkbot.com
