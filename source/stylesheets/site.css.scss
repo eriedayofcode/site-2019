@@ -234,12 +234,14 @@ img {
 
 	.organizers--nav {
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		margin: 3rem auto 0 auto;
+    flex-flow: row wrap;
 
 		.organizer--image {
 			border-radius: 50%;
 			width: 75px;
+      margin: 1rem;
 
 			.organizer a {
 				display: inline-block;
