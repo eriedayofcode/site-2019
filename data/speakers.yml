@@ -34,3 +34,22 @@
   abstract: |-
     Coming soon
 
+- name: David Baltusavich
+  image: /images/speakers/david-baltusavich.jpg
+  twitter: "synatree"
+  talk_title: "IoT Sensing in the Real World"
+  about: |-
+    David is an entrepreneur, technologist, and software architect currently focused on IoT and IIoT platform development.
+  abstract: |-
+    As IoT devices and platforms proliferate, the challenging reality of sensor technology and the nature of physical systems become the bottleneck to getting a product into the market. Over the past two years SynaTree has worked with local Industrial Tech company PSNergy to develop a real-time IoT system for industrial use, and we've learned a lot along the way.  This talk will share some of the insight we've gained into how to build a system from the ground up, and some of the ways in which we've failed.  We'll also discuss which technologies have worked the best for us, in detail.
+
+    I don't think prior talks have addressed IoT, at least not in the last few years. I'd be sharing both the physical hardware that we've built (custom PCBs, custom cases, a novel approach to pumping, a list of hardware resources for the raspberry pi) but also some amount of insight into the fairly interesting stack I've personally developed, which revolves around zeroRPC, Redis, CouchDB, Node, Python, InfluxDB, and Grafana among others.  My primary goal in giving a talk like this would be to share practical information (like what specific sensors we are using, what control boards work best, etc) along with giving people a realistic sense of what an IoT device that really does something takes to develop.
+
+- name: Joel Lord
+  image: /images/speakers/joel-lord.jpg
+  twitter: "joel__lord"
+  talk_title: "Choose Your Own Talk: The Mystery Of Identity City"
+  about: |-
+    Technical Evangelist at [Auth0](https://auth0.com). He is passionate about web and technology, learning new things, and sharing his discoveries.  He does so by travelling at various conferences all across the globe.
+  abstract: |-
+    Coming soon
