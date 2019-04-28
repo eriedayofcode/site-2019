@@ -166,8 +166,25 @@ title: Erie Day of Code 2019
 					</div>
 				</section>
 
+        <% if data.sponsors.premier %>
+					<section id="sponsor-premier" class="sponsor-level">
+						<h1 class="sponsor--title">Premier</h1>
+						<div class="row">
+							<% data.sponsors.premier.each do |s| %>
+								<div class="sponsor-container col-lg-8 offset-lg-2">
+									<article class="sponsor">
+										<% link_to s.url, target: '_blank' do %>
+											<%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+										<% end %>
+									</article>
+								</div>
+							<% end %>
+						</div>
+					</section>
+				<% end %>
+
 				<% if data.sponsors.platinum %>
-					<section id="sponsor-plantinum" class="sponsor-level">
+					<section id="sponsor-platinum" class="sponsor-level">
 						<h1 class="sponsor--title">Platinum</h1>
 						<div class="row">
 							<% data.sponsors.platinum.each do |s| %>
