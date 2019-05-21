@@ -20,6 +20,12 @@ silver:
   - name: Erie Innovation District
     url: http://erieinnovationdistrict.com
     logo: 'eid.png'
+  - name: Expedient
+    url: https://expedient.com
+    logo: 'expedient.png'
   - name: Vehikl
     url: https://vehikl.com
     logo: 'vehikl.png'
+  - name: Rivers Agile
+    url: https://riversagile.com
+    logo: 'riversagile.png'
