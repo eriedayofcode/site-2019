@@ -194,3 +194,10 @@ img {
         -webkit-box-flex: 1;
             -ms-flex: 1;
                 flex: 1; }
+
+.agenda .talk .description {
+  font-size: 0.9rem; }
+.agenda .talk .speaker-photo {
+  border-radius: 50%;
+  max-width: 75%;
+  padding: 10px; }

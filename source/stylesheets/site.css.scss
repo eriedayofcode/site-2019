@@ -250,3 +250,15 @@ img {
 		}
 	}
 }
+
+.agenda .talk {
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .speaker-photo {
+    border-radius: 50%;
+    max-width: 75%;
+    padding:10px;
+  }
+}

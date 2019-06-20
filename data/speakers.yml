@@ -1,7 +1,7 @@
 - name: Kim Maida
   image: /images/speakers/kim-maida.jpg
   twitter: "KimMaida"
-  talk_title: "Reactive Programming in JS with RxJS"
+  talk_title: "Reactive JavaScript with RxJS"
   about: |-
     Google Developer Expert and Manager of Community & Technical Content at [Auth0](https://auth0.com). Passionate about identity, authentication, constant learning, mentoring engineers, and the JavaScript community.
   abstract: |-
@@ -15,7 +15,6 @@
     Caleb is a web developer, speaker, and podcaster who’s super duper passionate about resisting complexity and delivering more value.
   abstract: |-
     Developers are increasingly adopting tools like React, Vue, and Angular to develop their front-ends. These tools are powerful alternatives to the dark days of jQuery, however, they are orders of magnitude more complex. Companies like GitHub and Basecamp are speaking out against this complexity. They are utilizing tools and techniques that leverage server-side technologies while delivering smooth UIs that feel like SPAs. In this talk, we’ll explore some compelling strategies to deliver more value and write less JavaScript!
-
 - name: Michael Mollick
   image: /images/speakers/michael-mollick.jpg
   twitter: "mollick2"
@@ -23,7 +22,9 @@
   about: |-
     Michael is the lead developer and co-founder of [NeverBounce](https://neverbounce.com). He's a former art student turned software engineer, now building SaaS platforms and contributing to the open source community.
   abstract: |-
-    Coming soon
+    Chargebacks are an unavoidable burden for anyone accepting credit card payments online. Not only are chargebacks costly, but left unchecked you'll find yourself without a way to accept payments. What's the source of these chargebacks? Unsatisfied customers? Credit card fraud? And who's this Canadian spending thousands of dollars from Morocco? In this talk, I'll share real-world experiences combating chargebacks and credit card fraud in a SaaS application.
+
+    One of the more mystifying and unexpected pain points of running an online business is a "chargeback." Unless you've previously dealt with them, you may not even know what they are. That was the case I found myself in when co-founding a SaaS platform. This talk leverages our experiences to inform entrepreneurs and developers on how to respond and mitigate chargebacks. I'll include how we identified patterns (like our Canadian friend who seems to be on a spending spree in Morocco), implemented a workflow and adopted tools to help reduce the burden of chargebacks.
 
 - name: Caryn Farvour
   image: /images/speakers/caryn-farvour.jpg
@@ -32,7 +33,14 @@
   about: |-
     Caryn is one of those fabled UX Engineers (or whatever we're calling it these days) at [Vehikl](https://vehikl.com). She is a designer who codes, an advocate of practical UX, and the organizer of Dev London in London, Ontario.
   abstract: |-
-    Coming soon
+    Practical UX tips for the discerning developer
+
+    When you hear the term UX, do you think of magic? Do UX team members scare you with all their fancy words and mysterious doodles? With insights and advice from six leading UX professionals including a product strategist, a usability expert, and several successful authors, we’ll be breaking down practical techniques you can do every day to improve your understanding and use of UX principles.
+
+    You’ll be shown the secret lair of the fabled UX Unicorn. Everything from how simple it all really is when you break it down, the essential rule set we follow, easy tools for getting started, UX tips specific to developing software, the secrets to the UX state of mind, and even how our esteemed UX colleagues pronounce .gif!
+
+    You’ll walk away with a solid understanding of the principles of UX and a fresh perspective on how to collaborate with the creative people on your team.
+
 
 - name: David Baltusavich
   image: /images/speakers/david-baltusavich.jpg
@@ -44,15 +52,17 @@
     As IoT devices and platforms proliferate, the challenging reality of sensor technology and the nature of physical systems become the bottleneck to getting a product into the market. Over the past two years SynaTree has worked with local Industrial Tech company PSNergy to develop a real-time IoT system for industrial use, and we've learned a lot along the way.  This talk will share some of the insight we've gained into how to build a system from the ground up, and some of the ways in which we've failed.  We'll also discuss which technologies have worked the best for us, in detail.
 
     I don't think prior talks have addressed IoT, at least not in the last few years. I'd be sharing both the physical hardware that we've built (custom PCBs, custom cases, a novel approach to pumping, a list of hardware resources for the raspberry pi) but also some amount of insight into the fairly interesting stack I've personally developed, which revolves around zeroRPC, Redis, CouchDB, Node, Python, InfluxDB, and Grafana among others.  My primary goal in giving a talk like this would be to share practical information (like what specific sensors we are using, what control boards work best, etc) along with giving people a realistic sense of what an IoT device that really does something takes to develop.
-
 - name: Joel Lord
   image: /images/speakers/joel-lord.jpg
   twitter: "joel__lord"
   talk_title: "Choose Your Own Talk: The Mystery Of Identity City"
   about: |-
-    Technical Evangelist at [Auth0](https://auth0.com). He is passionate about web and technology, learning new things, and sharing his discoveries.  He does so by travelling at various conferences all across the globe.
+    Technical Evangelist at [RedHat](https://redhat.com). [Auth0 Ambassador](https://auth0.com). He is passionate about web and technology, learning new things, and sharing his discoveries.  He does so by travelling at various conferences all across the globe.
   abstract: |-
-    Coming soon
+    You thought security and identity management was boring? In this "Choose Your Own Adventure" style talk, the attendees are in control of the talk. By using a simple web application, the attendees will be able to decide how deep they want to go on topics like OAuth, OpenID Connect and JWTs. Want to see the examples in Python? How about JavaScript? Cast in your vote to pick the language you want to see. Will this talk focus more on front-end or back-end? Attend the talk to decide which one you want to see in this unique presentation. By the end of this talk, the attendees will understand how to use JWTs with OAuth and OIDC to build more secure applications.
+
+    This talk actually uses an application to ask the attendees what they want to see next. The planned content for this talk still covers OAuth, OIDC and JWT. The attendees only choose how deep they want to go into a specific topic. They also have the option to switch the language in which they want to see the code samples. But overall, the talk is always a 60 minutes talk as it is just a matter of expanding or going faster on certain topics.
+
 - name: Guy Royse
   image: /images/speakers/guy-royse.jpg
   twitter: "guyroyse"
@@ -60,4 +70,8 @@
   about: |-
     Work. Life. Code. Game. Lather. Rinse. Repeat. — Developer Evangelist at [DataRobot](https://www.datarobot.com/) . Husband and father of three. Geek. Graybeard. Gamemaster.
   abstract: |-
-    Coming soon
+    Want to write a web application? Better get familiar with JavaScript! JavaScript has long been the king of front-end. While there have been various attempts to dethrone it, they have typically involved treating JavaScript as an assembly-language analog that you transpile your code to. This has lead to complex build pipelines that result in JavaScript which the browser has to parse and you still have to debug. But what if there were an actual byte-code language you could compile your non-JavaScript code to instead? That is what WebAssembly is.
+
+    I'm going to explain how WebAssembly works and how to use it in this talk. I'll cover what it is, how it fits into your application, and how to build and use your own WebAssembly modules. And, I'll demo how to build and use those modules with both Rust and the WebAssembly Text Format. That's right, I'll be live coding in an assembly language. I'll also go over some online resources for other languages and tools that make use of WebAssembly.
+
+    When we're done, you'll have the footing you need to start building applications featuring WebAssembly. So grab a non-JavaScript language, a modern browser, and let's and get started!
