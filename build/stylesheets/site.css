@@ -195,9 +195,20 @@ img {
             -ms-flex: 1;
                 flex: 1; }
 
+.agenda-row {
+  border-bottom: 2px dashed #ccc;
+  margin-bottom: 1rem; }
+  .agenda-row .time-col {
+    text-align: center; }
+
 .agenda .talk .description {
   font-size: 0.9rem; }
 .agenda .talk .speaker-photo {
   border-radius: 50%;
   max-width: 75%;
-  padding: 10px; }
+  padding: 10px;
+  margin: 0 auto; }
+.agenda .talk .speaker {
+  text-align: center; }
+.agenda .talk .speaker-name {
+  text-align: center; }

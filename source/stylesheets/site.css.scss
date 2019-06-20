@@ -251,6 +251,14 @@ img {
 	}
 }
 
+.agenda-row {
+  .time-col {
+    text-align: center;
+  }
+
+  border-bottom: 2px dashed #ccc;
+  margin-bottom: 1rem;
+}
 .agenda .talk {
   .description {
     font-size: 0.9rem;
@@ -260,5 +268,13 @@ img {
     border-radius: 50%;
     max-width: 75%;
     padding:10px;
+    margin: 0 auto;
+  }
+
+  .speaker {
+    text-align: center;
+  }
+  .speaker-name {
+    text-align: center;
   }
 }
