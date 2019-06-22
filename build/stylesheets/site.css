@@ -205,10 +205,15 @@ img {
   font-size: 0.9rem; }
 .agenda .talk .speaker-photo {
   border-radius: 50%;
-  max-width: 75%;
+  max-width: 50%;
   padding: 10px;
   margin: 0 auto; }
 .agenda .talk .speaker {
   text-align: center; }
 .agenda .talk .speaker-name {
   text-align: center; }
+
+.speakers .speaker--talk-title {
+  font-size: 1.4rem; }
+.speakers .speaker--about {
+  font-size: 1.0rem; }

@@ -96,6 +96,11 @@ title: Erie Day of Code 2019
 											<%= row.description %>
 										</div>
 									<% end %>
+                  <% if row.type == 'other' && row.description %>
+										<div class="description">
+											<%= row.description %>
+										</div>
+									<% end %>
 								</div>
 							</div>
 						</article>
@@ -114,7 +119,7 @@ title: Erie Day of Code 2019
 						<div class="row">
 							<% pair.each_with_index do |speaker, i| %>
                 <div class="col-md-5 <%= "offset-md-2" if i != 0 %>">
-                  <div class="card" style="">
+                  <div class="card speaker" style="">
                     <a class="speaker--photo-link" href="<%= twitter_profile(speaker.twitter) %>" target="_blank">
                       <%= image_tag speaker.image, class: 'card-img-top speaker--photo', alt: speaker.name %>
                     </a>
@@ -125,18 +130,13 @@ title: Erie Day of Code 2019
                       <h4 class="speaker--talk-title">
                         <%= speaker.talk_title %>
                       </h4>
-                      <p class="card-text"><%= md_text(speaker.about) %></p>
+                      <div class="card-text speaker--about"><%= md_text(speaker.about) %></div>
                     </div>
                   </div>
                 </div>
-							<% end %>
+              <% end %>
 						</div>
 					<% end %>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h1>More speakers to be announced soon!</h1>
-            </div>
-          </div>
 				</div>
 			</section>
 		<% end %>
