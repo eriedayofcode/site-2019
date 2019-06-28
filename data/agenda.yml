@@ -55,12 +55,12 @@
   type: other
   title: Lunch
 
-- time: 1:30pm - 2:45pm
+- time: 1:30pm - 2:15pm
   type: other
   title: Lightning Talks
   description: Do you have something you want to teach or an awesome project to show off?  Come early and be one of 5 people to sign up to give a lightning talk!
 
-- time: 3:00pm - 3:30pm
+- time: 2:30pm - 3:00pm
   type: talk
   title: "IoT Sensing in the Real World"
   description: |-
@@ -69,7 +69,7 @@
     name: "David Baltusavich"
     image: /images/speakers/david-baltusavich.jpg
 
-- time: 3:45pm - 4:15pm
+- time: 3:15pm - 3:45pm
   type: talk
   title: "Choose Your Own Talk: The Mystery Of Identity City"
   description: |-
@@ -78,7 +78,7 @@
     name: "Joel Lord"
     image: /images/speakers/joel-lord.jpg
 
-- time: 4:15pm - 5:00pm
+- time: 4:00pm - 4:45pm
   type: talk
   title: "Intro to Web Assembly"
   description: |-
@@ -91,7 +91,7 @@
     name: "Guy Royse"
     image: /images/speakers/guy-royse.jpg
 
-- time: 5:00pm
+- time: 4:45pm
   type: other
   title: Closing Remarks
 
